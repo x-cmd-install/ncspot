@@ -7,7 +7,7 @@ about:
   head: cd085bf
   archived: false
   latestVersion: v1.4.0
-  collectedAt: 2026-09-04T19:35:49Z
+  collectedAt: 2026-09-04T20:58:35Z
 timeline:
   created: 2018-11-10
   lastCommit: 2026-08-31
@@ -19,7 +19,7 @@ popularity:
   release: 56
   contributor: 96
   pullRequest: 1064
-  issue: 762
+  issue: 763
 language:
   Rust: 458709
   Nix: 154
@@ -31,7 +31,7 @@ recent:
     release: 1
     mergedPR: 5
     openPR: 1
-    closedIssue: 0
+    closedIssue: 1
     openIssue: 0
     commit: 7
   last60d:
@@ -39,7 +39,7 @@ recent:
     release: 1
     mergedPR: 10
     openPR: 1
-    closedIssue: 2
+    closedIssue: 3
     openIssue: 2
     commit: 12
   last90d:
@@ -47,7 +47,7 @@ recent:
     release: 1
     mergedPR: 19
     openPR: 5
-    closedIssue: 2
+    closedIssue: 3
     openIssue: 4
     commit: 22
   last180d:
@@ -55,7 +55,7 @@ recent:
     release: 2
     mergedPR: 35
     openPR: 6
-    closedIssue: 4
+    closedIssue: 5
     openIssue: 8
     commit: 36
   last360d:
@@ -63,7 +63,7 @@ recent:
     release: 4
     mergedPR: 69
     openPR: 7
-    closedIssue: 23
+    closedIssue: 24
     openIssue: 30
     commit: 71
   last720d:
@@ -71,17 +71,50 @@ recent:
     release: 9
     mergedPR: 148
     openPR: 10
-    closedIssue: 60
+    closedIssue: 61
     openIssue: 74
     commit: 181
 total:
   release: 56
   mergedPR: 670
   openPR: 17
-  closedIssue: 570
+  closedIssue: 571
   openIssue: 192
   commit: 1397
 ---
+path: /home/runner/.x-repo/github.com/hrkfdn/ncspot
+collectedAt: 2026-09-04T20:58:36Z
+loc:
+  Rust:
+    code: 11672
+    comments: 183
+    blanks: 1508
+    files: 55
+  Svg:
+    code: 212
+    comments: 2
+    blanks: 2
+    files: 3
+  Toml:
+    code: 132
+    comments: 2
+    blanks: 18
+    files: 3
+  Nix:
+    code: 9
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 669
+    blanks: 233
+    files: 6
+total:
+  code: 12078
+  comments: 1215
+  blanks: 1784
+  files: 68
 ---
 date: "2026-08-24"
 repo:
