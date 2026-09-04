@@ -1,0 +1,58 @@
+about:
+  description: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  license: BSD-2-Clause
+  homepage: 
+  head: cd085bf
+  archived: false
+  latestVersion: v1.4.0
+  collectedAt: 2026-09-04T04:26:47Z
+timeline:
+  created: 2018-11-10
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-21
+popularity:
+  star: 6763
+  watcher: 35
+  fork: 271
+  release: 56
+  contributor: 96
+  pullRequest: 394
+  issue: 762
+language:
+  Rust: 458709
+  Nix: 154
+  Shell: 8
+totalLine: 458871
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 1
+    mergedPR: 5
+    openPR: 1
+    closedIssue: 0
+    openIssue: 0
+    commit: 7
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 19
+    openPR: 5
+    closedIssue: 1
+    openIssue: 5
+    commit: 22
+  last180d:
+    since: 2026-03-08
+    release: 2
+    mergedPR: 35
+    openPR: 6
+    closedIssue: 3
+    openIssue: 9
+    commit: 36
+  last360d:
+    since: 2025-09-09
+    release: 4
+    mergedPR: 69
+    openPR: 7
+    closedIssue: 22
+    openIssue: 31
+    commit: 71
