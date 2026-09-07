@@ -5,7 +5,7 @@ about:
   head: cd085bf
   archived: false
   latestVersion: "v1.4.0"
-  collectedAt: 2026-09-07T06:16:13Z
+  collectedAt: 2026-09-07T18:17:25Z
 timeline:
   created: 2018-11-10
   lastCommit: 2026-08-31
@@ -16,7 +16,7 @@ popularity:
   fork: 271
   release: 56
   contributor: 96
-  pullRequest: 1064
+  pullRequest: 1065
   issue: 764
 language:
   Rust: 458709
@@ -28,7 +28,7 @@ recent:
     since: 2026-08-08
     release: 1
     mergedPR: 5
-    openPR: 1
+    openPR: 2
     closedIssue: 1
     openIssue: 1
     commit: 7
@@ -36,7 +36,7 @@ recent:
     since: 2026-07-09
     release: 1
     mergedPR: 9
-    openPR: 1
+    openPR: 2
     closedIssue: 3
     openIssue: 3
     commit: 10
@@ -44,7 +44,7 @@ recent:
     since: 2026-06-09
     release: 1
     mergedPR: 18
-    openPR: 5
+    openPR: 6
     closedIssue: 3
     openIssue: 5
     commit: 20
@@ -52,7 +52,7 @@ recent:
     since: 2026-03-11
     release: 2
     mergedPR: 32
-    openPR: 6
+    openPR: 7
     closedIssue: 5
     openIssue: 8
     commit: 33
@@ -60,7 +60,7 @@ recent:
     since: 2025-09-12
     release: 4
     mergedPR: 68
-    openPR: 7
+    openPR: 8
     closedIssue: 23
     openIssue: 31
     commit: 69
@@ -68,20 +68,20 @@ recent:
     since: 2024-09-17
     release: 9
     mergedPR: 147
-    openPR: 10
+    openPR: 11
     closedIssue: 60
     openIssue: 74
     commit: 179
 total:
   release: 56
   mergedPR: 670
-  openPR: 17
+  openPR: 18
   closedIssue: 571
   openIssue: 193
   commit: 1397
 ---
 path: /home/runner/.x-repo/github.com/hrkfdn/ncspot
-collectedAt: 2026-09-07T06:16:14Z
+collectedAt: 2026-09-07T18:17:26Z
 loc:
   Rust:
     code: 11672
@@ -221,7 +221,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:16:15+00:00
+  collectedAt: 2026-09-07T18:17:27+00:00
   platform:
     darwin/arm64:
       name:  ncspot-v1.4.0-macos-aarch64.tar.gz
