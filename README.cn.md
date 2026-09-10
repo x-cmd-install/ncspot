@@ -1,61 +1,61 @@
 # ncspot
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
-![ncspot](https://repo.x-cmd.io/ncspot.svg)
+![ncspot](https://repo.x-cmd.io/ncspot.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install ncspot
 ```
 
-## Code insight
+## 代码规模
 
-Total: **12,025** lines of code across **68** files in the top 5 languages.
+合计: **12,025** 行代码（覆盖前 5 种语言、共 **68** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Rust | 11,672 | 183 | 1,508 | 55 |
 | Svg | 212 | 2 | 2 | 3 |
 | Toml | 132 | 2 | 18 | 3 |
 | Nix | 9 | 0 | 0 | 1 |
 | Markdown | 0 | 669 | 233 | 6 |
 
-## OpenSSF Scorecard
+## OpenSSF Scorecard 评分
 
-Overall score: **3.8 / 10**
+总评分: **3.8 / 10**
 
-Lowest-scoring checks:
+评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 1/12 approved changesets -- score normalized to 0
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/hrkfdn/ncspot>
-- **License**: BSD-2-Clause
+- **上游仓库**: <https://github.com/hrkfdn/ncspot>
+- **许可证**: BSD-2-Clause
 
-## Release
+## 发布
 
-- **Latest**: `v1.4.0` (2026-08-21)
-- **Last commit**: 2026-08-31
-- **Assets in release**: 10
+- **最新版本**: `v1.4.0` (2026-08-21)
+- **最近提交**: 2026-08-31
+- **Release 含资产**: 10 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 6,770 · **Forks**: 273 · **Open issues**: 764 · **Contributors**: 96
+- **Star**: 6,770 · **Fork**: 273 · **开放 issue**: 764 · **贡献者**: 96
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 56 · **Merged PRs**: 670 · **Open PRs**: 19 · **Closed issues**: 571 · **Open issues**: 193 · **Commits**: 1397
+- **发布数**: 56 · **已合并 PR**: 670 · **开放 PR**: 19 · **已关闭 issue**: 571 · **开放 issue**: 193 · **提交数**: 1397
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 5 | 3 | 1 | 1 | 7 |
 | last60d | 2026-07-12 | 1 | 9 | 3 | 3 | 3 | 10 |
@@ -64,10 +64,10 @@ Lowest-scoring checks:
 | 360d | 2025-09-15 | 4 | 67 | 9 | 23 | 31 | 69 |
 | last720d | 2024-09-20 | 9 | 147 | 12 | 60 | 74 | 174 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [ncspot-v1.4.0-linux-arm64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-linux-arm64.sha256) | 99 B | `native/linux/arm64` |
 | [ncspot-v1.4.0-linux-arm64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-linux-arm64.tar.gz) | 7.2 MiB | `native/linux/arm64` |
 | [ncspot-v1.4.0-linux-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-linux-x86_64.sha256) | 100 B | `native/linux/x64` |
@@ -79,12 +79,12 @@ Lowest-scoring checks:
 | [ncspot-v1.4.0-windows-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-windows-x86_64.sha256) | 99 B | `native/win/x64` |
 | [ncspot-v1.4.0-windows-x86_64.zip](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-windows-x86_64.zip) | 5.8 MiB | `native/win/x64` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **48** distros on [repology.org](https://repology.org/project/ncspot). **15** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/ncspot) 上共有 **48** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**29** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Arch | `1.3.4` | ⚠️ outdated |
 | Homebrew | `1.4.0` | ✅ latest |
 | Nix unstable | `1.4.0` | ✅ latest |
@@ -92,13 +92,13 @@ Reported by **48** distros on [repology.org](https://repology.org/project/ncspot
 | Alpine edge | `1.1.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.3.4` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ncspot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+ncspot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ncspot` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/ncspot.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/ncspot.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:00:07Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:00:08Z._
