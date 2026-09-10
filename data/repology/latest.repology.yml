@@ -137,6 +137,18 @@
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
+- repo: openbsd
+  srcname: audio/ncspot
+  binname: ncspot
+  visiblename: audio/ncspot
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: ncurses Spotify client
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - audio
 - repo: aur
   srcname: ncspot-bin
   binname: ncspot-bin
@@ -427,18 +439,6 @@
     - sodagunz+nixpkgs@proton.me
   licenses:
     - BSD-2-Clause
-- repo: openbsd
-  srcname: audio/ncspot
-  binname: ncspot
-  visiblename: audio/ncspot
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: ncurses Spotify client
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - audio
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: ncspot
@@ -620,4 +620,4 @@
   status: newest
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
