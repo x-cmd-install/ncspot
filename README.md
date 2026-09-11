@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,770 · **Forks**: 273 · **Open issues**: 764 · **Contributors**: 96
+- **Stars**: 6,769 · **Forks**: 273 · **Open issues**: 764 · **Contributors**: 96
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 5 | 3 | 1 | 1 | 7 |
-| last60d | 2026-07-12 | 1 | 9 | 3 | 3 | 3 | 10 |
-| 90d | 2026-06-12 | 1 | 18 | 7 | 3 | 5 | 20 |
-| last180d | 2026-03-14 | 2 | 32 | 8 | 5 | 8 | 33 |
-| 360d | 2025-09-15 | 4 | 67 | 9 | 23 | 31 | 69 |
-| last720d | 2024-09-20 | 9 | 147 | 12 | 60 | 74 | 174 |
+| 30d | 2026-08-12 | 1 | 5 | 3 | 1 | 1 | 7 |
+| last60d | 2026-07-13 | 1 | 8 | 3 | 3 | 3 | 10 |
+| 90d | 2026-06-13 | 1 | 18 | 7 | 3 | 5 | 20 |
+| last180d | 2026-03-15 | 2 | 32 | 8 | 5 | 8 | 33 |
+| 360d | 2025-09-16 | 4 | 67 | 9 | 23 | 31 | 69 |
+| last720d | 2024-09-21 | 9 | 146 | 12 | 60 | 74 | 174 |
 
 ## Release assets
 
@@ -81,11 +81,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **48** distros on [repology.org](https://repology.org/project/ncspot). **15** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **47** distros on [repology.org](https://repology.org/project/ncspot). **17** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `1.3.4` | ⚠️ outdated |
+| Arch | `1.4.0` | ✅ latest |
 | Homebrew | `1.4.0` | ✅ latest |
 | Nix unstable | `1.4.0` | ✅ latest |
 | Void | `1.4.0` | ✅ latest |
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:49:19Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:21:07Z._
