@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.4.0"
   latestRelease: "v1.4.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:21:00Z
+  collectedAt: 2026-09-11T18:25:40Z
 timeline:
   created: 2018-11-10
   lastCommit: 2026-08-31
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-21
   lastPrerelease: 
 popularity:
-  star: 6769
+  star: 6770
   watcher: 35
   fork: 273
   release: 56
   contributor: 96
-  pullRequest: 1066
+  pullRequest: 1067
   issue: 764
 language:
   Rust: 458709
@@ -32,7 +32,7 @@ recent:
     since: 2026-08-12
     release: 1
     mergedPR: 5
-    openPR: 3
+    openPR: 4
     closedIssue: 1
     openIssue: 1
     commit: 7
@@ -40,7 +40,7 @@ recent:
     since: 2026-07-13
     release: 1
     mergedPR: 8
-    openPR: 3
+    openPR: 4
     closedIssue: 3
     openIssue: 3
     commit: 10
@@ -48,7 +48,7 @@ recent:
     since: 2026-06-13
     release: 1
     mergedPR: 18
-    openPR: 7
+    openPR: 8
     closedIssue: 3
     openIssue: 5
     commit: 20
@@ -56,7 +56,7 @@ recent:
     since: 2026-03-15
     release: 2
     mergedPR: 32
-    openPR: 8
+    openPR: 9
     closedIssue: 5
     openIssue: 8
     commit: 33
@@ -64,7 +64,7 @@ recent:
     since: 2025-09-16
     release: 4
     mergedPR: 67
-    openPR: 9
+    openPR: 10
     closedIssue: 23
     openIssue: 31
     commit: 69
@@ -72,20 +72,20 @@ recent:
     since: 2024-09-21
     release: 9
     mergedPR: 146
-    openPR: 12
+    openPR: 13
     closedIssue: 60
     openIssue: 74
     commit: 174
 total:
   release: 56
   mergedPR: 670
-  openPR: 19
+  openPR: 20
   closedIssue: 571
   openIssue: 193
   commit: 1397
 ---
 path: /home/runner/.x-repo/github.com/hrkfdn/ncspot
-collectedAt: 2026-09-11T06:21:01Z
+collectedAt: 2026-09-11T18:25:41Z
 loc:
   Rust:
     code: 11672
