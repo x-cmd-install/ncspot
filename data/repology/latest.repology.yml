@@ -1,10 +1,3 @@
-- repo: homebrew
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -227,6 +220,13 @@
   origversion: null
   status: outdated
   summary: Ncurses Spotify client written in Rust
+- repo: homebrew
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust
 - repo: liguros_stable
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
@@ -269,21 +269,6 @@
     - ZLIB
   categories:
     - media-sound
-- repo: opensuse_multimedia_apps_tumbleweed
-  srcname: ncspot
-  binnames:
-    - ncspot
-    - ncspot-debuginfo
-    - ncspot-debugsource
-  visiblename: ncspot
-  version: 1.2.2
-  origversion: 1.2.2-39.21
-  status: legacy
-  summary: Cross-platform ncurses Spotify client written in Rust
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Multimedia/Sound/Players
 - repo: liguros_develop
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
@@ -332,9 +317,9 @@
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.3.4
-  origversion: 1.3.4-1
-  status: outdated
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
@@ -459,6 +444,21 @@
   version: 1.3.4
   origversion: 1.3.4-1.4
   status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Multimedia/Sound/Players
+- repo: opensuse_multimedia_apps_tumbleweed
+  srcname: ncspot
+  binnames:
+    - ncspot
+    - ncspot-debuginfo
+    - ncspot-debugsource
+  visiblename: ncspot
+  version: 1.2.2
+  origversion: 1.2.2-39.21
+  status: legacy
   summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
