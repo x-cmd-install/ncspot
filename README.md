@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,770 · **Forks**: 273 · **Open issues**: 764 · **Contributors**: 96
+- **Stars**: 6,771 · **Forks**: 273 · **Open issues**: 764 · **Contributors**: 96
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 5 | 4 | 1 | 1 | 7 |
-| last60d | 2026-07-13 | 1 | 8 | 4 | 3 | 3 | 10 |
-| 90d | 2026-06-13 | 1 | 18 | 8 | 3 | 5 | 20 |
-| last180d | 2026-03-15 | 2 | 32 | 9 | 5 | 8 | 33 |
-| 360d | 2025-09-16 | 4 | 67 | 10 | 23 | 31 | 69 |
-| last720d | 2024-09-21 | 9 | 146 | 13 | 60 | 74 | 174 |
+| 30d | 2026-08-13 | 1 | 5 | 4 | 1 | 1 | 7 |
+| last60d | 2026-07-14 | 1 | 8 | 4 | 3 | 3 | 10 |
+| 90d | 2026-06-14 | 1 | 18 | 8 | 3 | 5 | 20 |
+| last180d | 2026-03-16 | 2 | 31 | 9 | 5 | 8 | 33 |
+| 360d | 2025-09-17 | 4 | 67 | 10 | 23 | 31 | 69 |
+| last720d | 2024-09-22 | 9 | 146 | 13 | 60 | 74 | 171 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **47** distros on [repology.org](https://repology.org/project/ncspot). **17** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **47** distros on [repology.org](https://repology.org/project/ncspot). **18** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T18:25:48Z._
+_Snapshot: `data/card/260912.yml` · 2026-09-12T06:12:07Z._
