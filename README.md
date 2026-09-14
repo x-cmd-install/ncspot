@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 7 | 2 | 1 | 1 | 9 |
-| last60d | 2026-07-15 | 1 | 9 | 2 | 3 | 2 | 12 |
-| 90d | 2026-06-15 | 1 | 18 | 6 | 3 | 5 | 22 |
-| last180d | 2026-03-17 | 2 | 33 | 7 | 5 | 8 | 35 |
-| 360d | 2025-09-18 | 4 | 69 | 8 | 23 | 30 | 71 |
-| last720d | 2024-09-23 | 9 | 147 | 11 | 60 | 74 | 173 |
+| 30d | 2026-08-15 | 1 | 7 | 2 | 1 | 1 | 7 |
+| last60d | 2026-07-16 | 1 | 9 | 2 | 3 | 2 | 12 |
+| 90d | 2026-06-16 | 1 | 17 | 4 | 3 | 5 | 19 |
+| last180d | 2026-03-18 | 2 | 33 | 7 | 5 | 8 | 34 |
+| 360d | 2025-09-19 | 4 | 69 | 8 | 23 | 29 | 71 |
+| last720d | 2024-09-24 | 9 | 146 | 11 | 60 | 74 | 172 |
 
 ## Release assets
 
@@ -79,19 +79,6 @@ Lowest-scoring checks:
 | [ncspot-v1.4.0-windows-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-windows-x86_64.sha256) | 99 B | `native/win/x64` |
 | [ncspot-v1.4.0-windows-x86_64.zip](https://github.com/hrkfdn/ncspot/releases/download/v1.4.0/ncspot-v1.4.0-windows-x86_64.zip) | 5.8 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **47** distros on [repology.org](https://repology.org/project/ncspot). **18** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.4.0` | ✅ latest |
-| Homebrew | `1.4.0` | ✅ latest |
-| Nix unstable | `1.4.0` | ✅ latest |
-| Void | `1.4.0` | ✅ latest |
-| Alpine edge | `1.1.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.3.4` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ncspot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:28:46Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:46:51Z._
