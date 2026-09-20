@@ -4,7 +4,7 @@
 
 Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
-![ncspot](https://repo.x-cmd.io/ncspot.svg)
+[![x-cmd/install — ncspot Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ncspot.svg)](https://x-cmd.com/install/ncspot)
 
 ## Install
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 5 | 4 | 1 | 1 | 7 |
-| last60d | 2026-07-20 | 1 | 9 | 4 | 3 | 2 | 12 |
-| 90d | 2026-06-20 | 1 | 17 | 6 | 3 | 4 | 19 |
-| last180d | 2026-03-22 | 2 | 32 | 9 | 5 | 8 | 34 |
-| 360d | 2025-09-23 | 4 | 69 | 10 | 22 | 29 | 71 |
-| last720d | 2024-09-28 | 9 | 145 | 13 | 60 | 74 | 170 |
+| 30d | 2026-08-21 | 1 | 4 | 4 | 1 | 1 | 7 |
+| last60d | 2026-07-22 | 1 | 9 | 4 | 3 | 2 | 12 |
+| 90d | 2026-06-22 | 1 | 15 | 6 | 3 | 4 | 19 |
+| last180d | 2026-03-24 | 2 | 32 | 9 | 5 | 7 | 34 |
+| 360d | 2025-09-25 | 4 | 68 | 10 | 22 | 29 | 71 |
+| last720d | 2024-09-30 | 9 | 145 | 13 | 60 | 74 | 170 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:41:56Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:33:16Z._
