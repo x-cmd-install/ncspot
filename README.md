@@ -30,9 +30,9 @@ Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 1/12 approved changesets -- score normalized to 0
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.4.0` (2026-08-21)
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-21
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,778 · **Forks**: 275 · **Open issues**: 764 · **Contributors**: 96
+- **Stars**: 6,780 · **Forks**: 276 · **Open issues**: 765 · **Contributors**: 96
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 672 · **Open PRs**: 20 · **Closed issues**: 571 · **Open issues**: 193 · **Commits**: 1399
+- **Releases**: 56 · **Merged PRs**: 673 · **Open PRs**: 19 · **Closed issues**: 571 · **Open issues**: 194 · **Commits**: 1400
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 4 | 3 | 1 | 1 | 3 |
-| last60d | 2026-07-23 | 1 | 9 | 4 | 3 | 2 | 9 |
-| 90d | 2026-06-23 | 1 | 15 | 5 | 3 | 3 | 16 |
-| last180d | 2026-03-25 | 2 | 32 | 9 | 5 | 7 | 34 |
-| 360d | 2025-09-26 | 4 | 68 | 10 | 21 | 29 | 69 |
-| last720d | 2024-10-01 | 9 | 145 | 13 | 59 | 74 | 170 |
+| 30d | 2026-08-23 | 0 | 5 | 2 | 1 | 2 | 4 |
+| last60d | 2026-07-24 | 1 | 10 | 3 | 2 | 3 | 10 |
+| 90d | 2026-06-24 | 1 | 16 | 4 | 3 | 4 | 17 |
+| last180d | 2026-03-26 | 2 | 33 | 8 | 5 | 8 | 35 |
+| 360d | 2025-09-27 | 4 | 69 | 9 | 20 | 30 | 70 |
+| last720d | 2024-10-02 | 9 | 146 | 12 | 58 | 74 | 171 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:44:01Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:46:10Z._
