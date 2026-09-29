@@ -14,15 +14,15 @@ x install ncspot
 
 ## Code insight
 
-Total: **12,025** lines of code across **68** files in the top 5 languages.
+Total: **12,475** lines of code across **68** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 11,672 | 183 | 1,508 | 55 |
+| Rust | 12,115 | 211 | 1,559 | 55 |
 | Svg | 212 | 2 | 2 | 3 |
 | Toml | 132 | 2 | 18 | 3 |
-| Nix | 9 | 0 | 0 | 1 |
-| Markdown | 0 | 669 | 233 | 6 |
+| Nix | 16 | 0 | 1 | 1 |
+| Markdown | 0 | 705 | 244 | 6 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.4.0` (2026-08-21)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-28
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,788 · **Forks**: 278 · **Open issues**: 765 · **Contributors**: 96
+- **Stars**: 6,788 · **Forks**: 278 · **Open issues**: 765 · **Contributors**: 99
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 673 · **Open PRs**: 20 · **Closed issues**: 571 · **Open issues**: 194 · **Commits**: 1400
+- **Releases**: 56 · **Merged PRs**: 678 · **Open PRs**: 16 · **Closed issues**: 573 · **Open issues**: 192 · **Commits**: 1406
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 4 | 3 | 1 | 2 | 3 |
-| last60d | 2026-07-30 | 1 | 8 | 4 | 1 | 2 | 10 |
-| 90d | 2026-06-30 | 1 | 14 | 4 | 3 | 4 | 16 |
-| last180d | 2026-04-01 | 2 | 32 | 9 | 5 | 7 | 35 |
-| 360d | 2025-10-03 | 4 | 68 | 9 | 19 | 29 | 70 |
-| last720d | 2024-10-08 | 9 | 145 | 13 | 57 | 74 | 170 |
+| 30d | 2026-08-30 | 0 | 8 | 0 | 1 | 2 | 9 |
+| last60d | 2026-07-31 | 1 | 13 | 0 | 1 | 2 | 16 |
+| 90d | 2026-07-01 | 1 | 19 | 0 | 3 | 4 | 22 |
+| last180d | 2026-04-02 | 2 | 37 | 5 | 5 | 7 | 41 |
+| 360d | 2025-10-04 | 4 | 73 | 5 | 19 | 29 | 76 |
+| last720d | 2024-10-09 | 9 | 150 | 9 | 57 | 74 | 176 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:50:36Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T07:08:42Z._
