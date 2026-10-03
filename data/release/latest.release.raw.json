@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:b02b164516cf78a26d7fe2416760a75304f4ca7b7c7ec8d9e0253f9c0153804c",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-10-01T18:38:30Z",
       "updated_at": "2026-10-01T18:38:30Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-arm64.sha256"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 7590899,
       "digest": "sha256:e137b2090be7411ac72d91273ed6a8c4b033080afb0b03c0027c6009954f103e",
-      "download_count": 1,
+      "download_count": 7,
       "created_at": "2026-10-01T18:38:30Z",
       "updated_at": "2026-10-01T18:38:30Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-arm64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 100,
       "digest": "sha256:edea6fd1cbffc53eec579c35720bebac40f3c5810006809781416d913793b800",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-10-01T18:38:32Z",
       "updated_at": "2026-10-01T18:38:32Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.sha256"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 7915383,
       "digest": "sha256:b4c3afe8805d46c3bd381fe16d3d53e374f64646eff66e9a04b1bf5dbc3b26d6",
-      "download_count": 2,
+      "download_count": 25,
       "created_at": "2026-10-01T18:38:32Z",
       "updated_at": "2026-10-01T18:38:33Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4640916,
       "digest": "sha256:4aaa6a36632e26373a8fc64be7a1dc1e2a19ee9a1212cec70b19e2fdc1305f70",
-      "download_count": 1,
+      "download_count": 9,
       "created_at": "2026-10-01T18:40:48Z",
       "updated_at": "2026-10-01T18:40:48Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-aarch64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 4880405,
       "digest": "sha256:b935f6514549650e9db89af9fb16cac1fa6e1c1b298bc38206e432800a3a3e5f",
-      "download_count": 1,
+      "download_count": 9,
       "created_at": "2026-10-01T18:40:36Z",
       "updated_at": "2026-10-01T18:40:37Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-x86_64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:b32f692d39ca76a646f4aecd1a71c8ab1725ec6b8bdc2a53e3dc39f868a94ac7",
-      "download_count": 38,
+      "download_count": 51,
       "created_at": "2026-10-01T18:42:54Z",
       "updated_at": "2026-10-01T18:42:54Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.sha256"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 6073763,
       "digest": "sha256:547e5bae5293d89144e27968c49071d5b36da8dc7200193c0214ea2180f7c4ed",
-      "download_count": 13,
+      "download_count": 80,
       "created_at": "2026-10-01T18:42:54Z",
       "updated_at": "2026-10-01T18:42:54Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.zip"
@@ -402,14 +402,14 @@
   "body": "## Added\r\n- Vim-like command completion by pressing <kbd>Tab</kbd>\r\n- Support Vim-style numeric count prefixes for keybindings (e.g. `10j` moves\r\n  down 10 rows); the pending count is shown in the status bar\r\n- Add a `proxy` configuration option that routes all of ncspot's network\r\n  traffic (access point, Spotify APIs, OAuth and cover art downloads) through\r\n  a single proxy. Supports HTTP CONNECT proxies and SOCKS5 proxies with\r\n  remote DNS resolution (`socks5h://`), both with optional credentials.\r\n  Without this option, the `http_proxy` environment variable is still\r\n  honoured as before.\r\n- Replace already existing queue notifications instead of stacking new ones.\r\n\r\n## What's Changed\r\n* chore(deps): bump log from 0.4.33 to 0.4.34 in the cargo group by @dependabot[bot] in https://github.com/hrkfdn/ncspot/pull/1865\r\n* chore(toolchain): update by @hrkfdn in https://github.com/hrkfdn/ncspot/pull/1864\r\n* chore(toolchain): update by @hrkfdn in https://github.com/hrkfdn/ncspot/pull/1869\r\n* chore(deps): bump toml from 1.1.4+spec-1.1.0 to 1.1.5+spec-1.1.0 in the cargo group by @dependabot[bot] in https://github.com/hrkfdn/ncspot/pull/1868\r\n* chore(deps): bump the cargo group across 1 directory with 5 updates by @dependabot[bot] in https://github.com/hrkfdn/ncspot/pull/1873\r\n* Add a unified proxy configuration option by @VIIII4 in https://github.com/hrkfdn/ncspot/pull/1876\r\n* chore(deps): bump rand from 0.10.2 to 0.10.3 in the cargo group across 1 directory by @dependabot[bot] in https://github.com/hrkfdn/ncspot/pull/1877\r\n* feat: support Vim-style numeric count prefixes for keybindings by @aw-snap in https://github.com/hrkfdn/ncspot/pull/1872\r\n* chore: replace notifications instead of stack by @0xk1f0 in https://github.com/hrkfdn/ncspot/pull/1870\r\n* feat: vim-style command completion by @koloiyolo in https://github.com/hrkfdn/ncspot/pull/1863\r\n* chore: Prepare for 1.5.0 release by @hrkfdn in https://github.com/hrkfdn/ncspot/pull/1878\r\n\r\n## New Contributors\r\n* @VIIII4 made their first contribution in https://github.com/hrkfdn/ncspot/pull/1876\r\n* @aw-snap made their first contribution in https://github.com/hrkfdn/ncspot/pull/1872\r\n* @0xk1f0 made their first contribution in https://github.com/hrkfdn/ncspot/pull/1870\r\n* @koloiyolo made their first contribution in https://github.com/hrkfdn/ncspot/pull/1863\r\n\r\n**Full Changelog**: https://github.com/hrkfdn/ncspot/compare/v1.4.0...v1.5.0",
   "reactions": {
     "url": "https://api.github.com/repos/hrkfdn/ncspot/releases/401244267/reactions",
-    "total_count": 1,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
     "heart": 0,
-    "rocket": 1,
+    "rocket": 4,
     "eyes": 0
   },
   "mentions_count": 6
