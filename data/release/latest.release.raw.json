@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 100,
       "digest": "sha256:edea6fd1cbffc53eec579c35720bebac40f3c5810006809781416d913793b800",
-      "download_count": 4,
+      "download_count": 6,
       "created_at": "2026-10-01T18:38:32Z",
       "updated_at": "2026-10-01T18:38:32Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.sha256"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 7915383,
       "digest": "sha256:b4c3afe8805d46c3bd381fe16d3d53e374f64646eff66e9a04b1bf5dbc3b26d6",
-      "download_count": 42,
+      "download_count": 54,
       "created_at": "2026-10-01T18:38:32Z",
       "updated_at": "2026-10-01T18:38:33Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4640916,
       "digest": "sha256:4aaa6a36632e26373a8fc64be7a1dc1e2a19ee9a1212cec70b19e2fdc1305f70",
-      "download_count": 15,
+      "download_count": 21,
       "created_at": "2026-10-01T18:40:48Z",
       "updated_at": "2026-10-01T18:40:48Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-aarch64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 4880405,
       "digest": "sha256:b935f6514549650e9db89af9fb16cac1fa6e1c1b298bc38206e432800a3a3e5f",
-      "download_count": 14,
+      "download_count": 21,
       "created_at": "2026-10-01T18:40:36Z",
       "updated_at": "2026-10-01T18:40:37Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-x86_64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:b32f692d39ca76a646f4aecd1a71c8ab1725ec6b8bdc2a53e3dc39f868a94ac7",
-      "download_count": 57,
+      "download_count": 62,
       "created_at": "2026-10-01T18:42:54Z",
       "updated_at": "2026-10-01T18:42:54Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.sha256"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 6073763,
       "digest": "sha256:547e5bae5293d89144e27968c49071d5b36da8dc7200193c0214ea2180f7c4ed",
-      "download_count": 116,
+      "download_count": 154,
       "created_at": "2026-10-01T18:42:54Z",
       "updated_at": "2026-10-01T18:42:54Z",
       "browser_download_url": "https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.zip"
