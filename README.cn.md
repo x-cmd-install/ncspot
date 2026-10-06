@@ -30,9 +30,9 @@ x install ncspot
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (3/10) — Found 5/15 approved changesets -- score normalized to 3
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install ncspot
 
 ## 流行度
 
-- **Star**: 6,790 · **Fork**: 279 · **开放 issue**: 765 · **贡献者**: 99
+- **Star**: 6,793 · **Fork**: 279 · **开放 issue**: 765 · **贡献者**: 99
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 679 · **开放 PR**: 16 · **已关闭 issue**: 573 · **开放 issue**: 192 · **提交数**: 1407
+- **发布数**: 57 · **已合并 PR**: 679 · **开放 PR**: 17 · **已关闭 issue**: 573 · **开放 issue**: 192 · **提交数**: 1407
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 1 | 8 | 0 | 0 | 2 | 8 |
-| last60d | 2026-08-06 | 2 | 14 | 0 | 1 | 2 | 17 |
-| 90d | 2026-07-07 | 2 | 19 | 0 | 3 | 4 | 21 |
-| last180d | 2026-04-08 | 3 | 38 | 4 | 4 | 7 | 41 |
-| 360d | 2025-10-10 | 5 | 73 | 5 | 19 | 28 | 75 |
-| last720d | 2024-10-15 | 10 | 148 | 9 | 57 | 74 | 177 |
+| 30d | 2026-09-06 | 1 | 8 | 1 | 0 | 1 | 8 |
+| last60d | 2026-08-07 | 2 | 14 | 1 | 1 | 2 | 17 |
+| 90d | 2026-07-08 | 2 | 18 | 1 | 3 | 4 | 21 |
+| last180d | 2026-04-09 | 3 | 38 | 5 | 4 | 7 | 41 |
+| 360d | 2025-10-11 | 5 | 73 | 6 | 19 | 28 | 75 |
+| last720d | 2024-10-16 | 9 | 148 | 10 | 57 | 74 | 171 |
 
 ## Release 资产
 
@@ -88,4 +88,4 @@ ncspot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T07:02:04Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T07:52:30Z._
