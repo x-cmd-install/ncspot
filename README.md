@@ -31,8 +31,8 @@ Overall score: **4.1 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (3/10) — Found 5/15 approved changesets -- score normalized to 3
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 1 | 7 | 9 | 0 | 1 | 10 |
-| last60d | 2026-08-20 | 2 | 15 | 9 | 1 | 2 | 15 |
-| 90d | 2026-07-21 | 2 | 19 | 9 | 3 | 3 | 23 |
-| last180d | 2026-04-22 | 3 | 38 | 13 | 4 | 7 | 41 |
-| 360d | 2025-10-24 | 5 | 75 | 14 | 16 | 28 | 78 |
-| last720d | 2024-10-29 | 9 | 148 | 18 | 55 | 72 | 173 |
+| 30d | 2026-09-20 | 1 | 7 | 9 | 0 | 1 | 10 |
+| last60d | 2026-08-21 | 2 | 14 | 9 | 1 | 2 | 15 |
+| 90d | 2026-07-22 | 2 | 19 | 9 | 3 | 3 | 23 |
+| last180d | 2026-04-23 | 3 | 38 | 13 | 4 | 7 | 41 |
+| 360d | 2025-10-25 | 5 | 75 | 14 | 16 | 28 | 78 |
+| last720d | 2024-10-30 | 9 | 148 | 18 | 55 | 72 | 172 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:57:38Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T06:15:04Z._
