@@ -14,15 +14,15 @@ x install ncspot
 
 ## Code insight
 
-Total: **12,475** lines of code across **68** files in the top 5 languages.
+Total: **12,524** lines of code across **68** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 12,115 | 213 | 1,560 | 55 |
+| Rust | 12,164 | 218 | 1,564 | 55 |
 | Svg | 212 | 2 | 2 | 3 |
 | Toml | 132 | 2 | 18 | 3 |
 | Nix | 16 | 0 | 1 | 1 |
-| Markdown | 0 | 705 | 244 | 6 |
+| Markdown | 0 | 710 | 247 | 6 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.0` (2026-10-01)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-23
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,799 · **Forks**: 282 · **Open issues**: 765 · **Contributors**: 99
+- **Stars**: 6,799 · **Forks**: 282 · **Open issues**: 765 · **Contributors**: 100
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 682 · **Open PRs**: 26 · **Closed issues**: 573 · **Open issues**: 192 · **Commits**: 1410
+- **Releases**: 57 · **Merged PRs**: 685 · **Open PRs**: 23 · **Closed issues**: 573 · **Open issues**: 192 · **Commits**: 1413
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 5 | 10 | 0 | 0 | 10 |
-| last60d | 2026-08-24 | 1 | 13 | 10 | 1 | 2 | 15 |
-| 90d | 2026-07-25 | 2 | 19 | 10 | 1 | 3 | 23 |
-| last180d | 2026-04-26 | 3 | 37 | 14 | 4 | 7 | 41 |
-| 360d | 2025-10-28 | 5 | 75 | 15 | 16 | 26 | 78 |
-| last720d | 2024-11-02 | 8 | 146 | 19 | 55 | 72 | 166 |
+| 30d | 2026-09-24 | 1 | 8 | 7 | 0 | 0 | 13 |
+| last60d | 2026-08-25 | 1 | 16 | 7 | 1 | 2 | 18 |
+| 90d | 2026-07-26 | 2 | 22 | 7 | 1 | 3 | 26 |
+| last180d | 2026-04-27 | 3 | 40 | 11 | 4 | 7 | 44 |
+| 360d | 2025-10-29 | 5 | 78 | 12 | 15 | 26 | 81 |
+| last720d | 2024-11-03 | 8 | 149 | 16 | 55 | 72 | 169 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **53** distros on [repology.org](https://repology.org/project/ncspot). **25** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/ncspot). **26** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T06:10:21Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:51:30Z._
