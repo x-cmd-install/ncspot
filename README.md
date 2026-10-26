@@ -14,15 +14,15 @@ x install ncspot
 
 ## Code insight
 
-Total: **12,647** lines of code across **68** files in the top 5 languages.
+Total: **12,654** lines of code across **68** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 12,287 | 219 | 1,568 | 55 |
+| Rust | 12,294 | 220 | 1,568 | 55 |
 | Svg | 212 | 2 | 2 | 3 |
 | Toml | 132 | 2 | 18 | 3 |
 | Nix | 16 | 0 | 1 | 1 |
-| Markdown | 0 | 711 | 247 | 6 |
+| Markdown | 0 | 712 | 247 | 6 |
 
 ## OpenSSF Scorecard
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.0` (2026-10-01)
-- **Last commit**: 2026-10-24
+- **Last commit**: 2026-10-25
 - **Assets in release**: 10
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 687 · **Open PRs**: 21 · **Closed issues**: 573 · **Open issues**: 191 · **Commits**: 1415
+- **Releases**: 57 · **Merged PRs**: 688 · **Open PRs**: 20 · **Closed issues**: 573 · **Open issues**: 191 · **Commits**: 1416
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 10 | 5 | 0 | 0 | 8 |
-| last60d | 2026-08-26 | 1 | 17 | 5 | 1 | 2 | 18 |
-| 90d | 2026-07-27 | 2 | 22 | 5 | 1 | 3 | 25 |
-| last180d | 2026-04-28 | 3 | 42 | 9 | 4 | 7 | 46 |
-| 360d | 2025-10-30 | 5 | 80 | 10 | 14 | 26 | 83 |
-| last720d | 2024-11-04 | 8 | 150 | 14 | 55 | 71 | 171 |
+| 30d | 2026-09-26 | 1 | 11 | 4 | 0 | 0 | 9 |
+| last60d | 2026-08-27 | 1 | 18 | 4 | 1 | 2 | 19 |
+| 90d | 2026-07-28 | 2 | 23 | 4 | 1 | 2 | 26 |
+| last180d | 2026-04-29 | 3 | 43 | 8 | 4 | 7 | 47 |
+| 360d | 2025-10-31 | 5 | 81 | 9 | 14 | 26 | 84 |
+| last720d | 2024-11-05 | 8 | 151 | 13 | 55 | 70 | 172 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:54:40Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T06:06:04Z._
