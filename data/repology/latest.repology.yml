@@ -1,18 +1,14 @@
-- repo: opensuse_multimedia_apps_tumbleweed
+- repo: parabola
+  subrepo: extra
   srcname: ncspot
-  binnames:
-    - ncspot
-    - ncspot-debuginfo
-    - ncspot-debugsource
+  binname: ncspot
   visiblename: ncspot
-  version: 1.2.2
-  origversion: 1.2.2-39.21
-  status: legacy
-  summary: Cross-platform ncurses Spotify client written in Rust
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
-  categories:
-    - Productivity/Multimedia/Sound/Players
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -197,9 +193,9 @@
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.3.3
+  version: 1.5.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Ncurses Spotify client written in Rust
 - repo: homebrew
   srcname: ncspot
@@ -361,9 +357,9 @@
   srcname: audio/ncspot
   binname: ncspot
   visiblename: audio/ncspot
-  version: 1.4.0
+  version: 1.5.0
   origversion: null
-  status: outdated
+  status: newest
   summary: ncurses Spotify client
   maintainers:
     - ports@openbsd.org
@@ -416,6 +412,21 @@
     - ncspot-debuginfo
     - ncspot-debugsource
   visiblename: ncspot
+  version: 1.2.2
+  origversion: 1.2.2-39.21
+  status: legacy
+  summary: Cross-platform ncurses Spotify client written in Rust
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Multimedia/Sound/Players
+- repo: opensuse_multimedia_apps_tumbleweed
+  srcname: ncspot
+  binnames:
+    - ncspot
+    - ncspot-debuginfo
+    - ncspot-debugsource
+  visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-53.1
   status: newest
@@ -424,17 +435,6 @@
     - BSD-2-Clause
   categories:
     - Productivity/Multimedia/Sound/Players
-- repo: parabola
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
 - repo: pkgsrc_2026_2
   srcname: audio/ncspot
   binname: ncspot
@@ -584,6 +584,19 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.4.0
+  origversion: 1.4.0_1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-2-Clause
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot-debuginfo
@@ -668,19 +681,6 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.4.0
-  origversion: 1.4.0_1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-2-Clause
 - repo: vylen
   subrepo: community
   srcname: ncspot
