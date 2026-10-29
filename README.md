@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,798 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 100
+- **Stars**: 6,800 · **Forks**: 280 · **Open issues**: 766 · **Contributors**: 100
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 690 · **Open PRs**: 18 · **Closed issues**: 574 · **Open issues**: 192 · **Commits**: 1419
+- **Releases**: 57 · **Merged PRs**: 690 · **Open PRs**: 18 · **Closed issues**: 575 · **Open issues**: 191 · **Commits**: 1419
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 1 | 12 | 3 | 0 | 1 | 12 |
-| last60d | 2026-08-29 | 1 | 20 | 3 | 1 | 3 | 22 |
-| 90d | 2026-07-30 | 2 | 25 | 3 | 1 | 3 | 29 |
-| last180d | 2026-05-01 | 3 | 45 | 7 | 4 | 8 | 50 |
-| 360d | 2025-11-02 | 5 | 83 | 7 | 14 | 27 | 87 |
-| last720d | 2024-11-07 | 8 | 153 | 11 | 55 | 71 | 175 |
+| 30d | 2026-09-29 | 1 | 12 | 3 | 1 | 0 | 12 |
+| last60d | 2026-08-30 | 1 | 20 | 3 | 2 | 2 | 22 |
+| 90d | 2026-07-31 | 2 | 25 | 3 | 2 | 2 | 29 |
+| last180d | 2026-05-02 | 3 | 45 | 7 | 5 | 7 | 50 |
+| 360d | 2025-11-03 | 5 | 83 | 7 | 15 | 26 | 87 |
+| last720d | 2024-11-08 | 8 | 153 | 11 | 56 | 70 | 175 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **54** distros on [repology.org](https://repology.org/project/ncspot). **26** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/ncspot). **28** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T07:07:33Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T07:15:47Z._
