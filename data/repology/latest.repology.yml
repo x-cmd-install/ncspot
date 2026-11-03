@@ -1,39 +1,18 @@
-- repo: crates_io
+- repo: opensuse_multimedia_apps_tumbleweed
   srcname: ncspot
+  binnames:
+    - ncspot
+    - ncspot-debuginfo
+    - ncspot-debugsource
   visiblename: ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
-  summary: ncurses Spotify client written in Rust using librespot, inspired by ncmpc and the likes.
-- repo: scoop
-  subrepo: main
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
+  version: 1.2.2
+  origversion: 1.2.2-39.21
+  status: legacy
+  summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
-- repo: slackbuilds
-  srcname: audio/ncspot
-  visiblename: audio/ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
-  maintainers:
-    - kvngncrlsn@gmail.com
   categories:
-    - audio
-- repo: starkos
-  subrepo: extra
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - starkos@disroot.org
+    - Productivity/Multimedia/Sound/Players
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -162,6 +141,17 @@
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
+- repo: parabola
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
 - repo: aur
   srcname: ncspot-git
   binname: ncspot-git
@@ -174,6 +164,13 @@
     - gugylucky@aur
   licenses:
     - BSD-2-Clause
+- repo: crates_io
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  summary: ncurses Spotify client written in Rust using librespot, inspired by ncmpc and the likes.
 - repo: freebsd
   srcname: audio/ncspot
   binname: ncspot
@@ -345,16 +342,6 @@
     - sodagunz+nixpkgs@proton.me
   licenses:
     - BSD-2-Clause
-- repo: termux
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
-  summary: An ncurses Spotify client written in Rust
-  maintainers:
-    - termux@github
 - repo: nix_stable_26_05
   srcname: ncspot
   visiblename: ncspot
@@ -440,21 +427,6 @@
     - ncspot-debuginfo
     - ncspot-debugsource
   visiblename: ncspot
-  version: 1.2.2
-  origversion: 1.2.2-39.21
-  status: legacy
-  summary: Cross-platform ncurses Spotify client written in Rust
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Multimedia/Sound/Players
-- repo: opensuse_multimedia_apps_tumbleweed
-  srcname: ncspot
-  binnames:
-    - ncspot
-    - ncspot-debuginfo
-    - ncspot-debugsource
-  visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-53.1
   status: newest
@@ -463,17 +435,6 @@
     - BSD-2-Clause
   categories:
     - Productivity/Multimedia/Sound/Players
-- repo: parabola
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
 - repo: pkgsrc_2026_2
   srcname: audio/ncspot
   binname: ncspot
@@ -542,6 +503,45 @@
     - BSD-2-Clause
   categories:
     - Sound
+- repo: scoop
+  subrepo: main
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-2-Clause
+- repo: slackbuilds
+  srcname: audio/ncspot
+  visiblename: audio/ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  maintainers:
+    - kvngncrlsn@gmail.com
+  categories:
+    - audio
+- repo: starkos
+  subrepo: extra
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - starkos@disroot.org
+- repo: termux
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  summary: An ncurses Spotify client written in Rust
+  maintainers:
+    - termux@github
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot
