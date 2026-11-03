@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.0` (2026-10-01)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-02
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,805 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
+- **Stars**: 6,806 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 694 · **Open PRs**: 17 · **Closed issues**: 577 · **Open issues**: 189 · **Commits**: 1423
+- **Releases**: 57 · **Merged PRs**: 695 · **Open PRs**: 17 · **Closed issues**: 578 · **Open issues**: 188 · **Commits**: 1424
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 15 | 2 | 1 | 0 | 13 |
-| last60d | 2026-09-03 | 1 | 23 | 2 | 2 | 2 | 25 |
-| 90d | 2026-08-04 | 2 | 29 | 2 | 2 | 2 | 33 |
-| last180d | 2026-05-06 | 3 | 49 | 6 | 5 | 7 | 54 |
-| 360d | 2025-11-07 | 5 | 85 | 6 | 13 | 26 | 87 |
-| last720d | 2024-11-12 | 8 | 156 | 10 | 56 | 68 | 176 |
+| 30d | 2026-10-04 | 0 | 16 | 2 | 1 | 0 | 14 |
+| last60d | 2026-09-04 | 1 | 24 | 2 | 2 | 1 | 26 |
+| 90d | 2026-08-05 | 2 | 30 | 2 | 3 | 1 | 34 |
+| last180d | 2026-05-07 | 3 | 50 | 6 | 6 | 6 | 55 |
+| 360d | 2025-11-08 | 5 | 86 | 6 | 14 | 25 | 88 |
+| last720d | 2024-11-13 | 8 | 157 | 10 | 57 | 67 | 177 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:41:52Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:26:22Z._
