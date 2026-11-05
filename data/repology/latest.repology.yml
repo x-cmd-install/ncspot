@@ -126,6 +126,17 @@
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-2
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
 - repo: aur
   srcname: ncspot-git
   binname: ncspot-git
@@ -145,15 +156,6 @@
   origversion: null
   status: newest
   summary: ncurses Spotify client written in Rust using librespot, inspired by ncmpc and the likes.
-- repo: scoop
-  subrepo: main
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
-  licenses:
-    - BSD-2-Clause
 - repo: freebsd
   srcname: audio/ncspot
   binname: ncspot
@@ -325,26 +327,6 @@
     - sodagunz+nixpkgs@proton.me
   licenses:
     - BSD-2-Clause
-- repo: slackbuilds
-  srcname: audio/ncspot
-  visiblename: audio/ncspot
-  version: 1.5.0
-  origversion: null
-  status: newest
-  maintainers:
-    - kvngncrlsn@gmail.com
-  categories:
-    - audio
-- repo: starkos
-  subrepo: extra
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - starkos@disroot.org
 - repo: nix_stable_26_05
   srcname: ncspot
   visiblename: ncspot
@@ -532,6 +514,35 @@
     - BSD-2-Clause
   categories:
     - Sound
+- repo: scoop
+  subrepo: main
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-2-Clause
+- repo: slackbuilds
+  srcname: audio/ncspot
+  visiblename: audio/ncspot
+  version: 1.5.0
+  origversion: null
+  status: newest
+  maintainers:
+    - kvngncrlsn@gmail.com
+  categories:
+    - audio
+- repo: starkos
+  subrepo: extra
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: ncspot
   binname: ncspot
@@ -570,19 +581,16 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
-- repo: void_x86_64
-  subrepo: x86_64
+- repo: vylen
+  subrepo: community
   srcname: ncspot
-  binname: ncspot
   visiblename: ncspot
   version: 1.5.0
-  origversion: 1.5.0_1
+  origversion: 1.5.0-1
   status: newest
-  summary: Cross-platform ncurses Spotify client
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
   maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-2-Clause
+    - wonkru-dev@proton.me
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot-bash-completion
@@ -681,13 +689,16 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
-- repo: vylen
-  subrepo: community
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: ncspot
+  binname: ncspot
   visiblename: ncspot
   version: 1.5.0
-  origversion: 1.5.0-1
+  origversion: 1.5.0_1
   status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  summary: Cross-platform ncurses Spotify client
   maintainers:
-    - wonkru-dev@proton.me
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-2-Clause
