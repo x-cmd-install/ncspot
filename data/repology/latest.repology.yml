@@ -1,3 +1,14 @@
+- repo: nix_stable_24_05
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.1.1
+  origversion: null
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - liff@iki.fi
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -277,17 +288,6 @@
   origversion: 1.5.0-1
   status: newest
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_24_05
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.1.1
-  origversion: null
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - liff@iki.fi
   licenses:
     - BSD-2-Clause
 - repo: nix_stable_24_11
