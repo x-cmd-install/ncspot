@@ -1,12 +1,12 @@
-- repo: nix_stable_24_05
+- repo: arch
+  subrepo: extra
   srcname: ncspot
+  binname: ncspot
   visiblename: ncspot
-  version: 1.1.1
-  origversion: null
+  version: 1.5.0
+  origversion: 1.5.0-1
   status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - liff@iki.fi
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_17
@@ -126,17 +126,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: arch
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
 - repo: arch_testing
   subrepo: extra-testing
   srcname: ncspot
@@ -144,7 +133,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-2
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
@@ -163,7 +152,7 @@
 - repo: crates_io
   srcname: ncspot
   visiblename: ncspot
-  version: 1.5.0
+  version: 1.5.1
   origversion: null
   status: newest
   summary: ncurses Spotify client written in Rust using librespot, inspired by ncmpc and the likes.
@@ -173,7 +162,7 @@
   visiblename: audio/ncspot
   version: 1.5.0
   origversion: 1.5.0_1
-  status: newest
+  status: outdated
   summary: Ncurses Spotify client
   maintainers:
     - rodrigo@freebsd.org
@@ -184,7 +173,7 @@
   visiblename: media-sound/ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: ncurses Spotify client written in Rust using librespot
   maintainers:
     - juippis@gentoo.org
@@ -206,12 +195,12 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Ncurses Spotify client written in Rust
 - repo: homebrew
   srcname: ncspot
   visiblename: ncspot
-  version: 1.5.0
+  version: 1.5.1
   origversion: null
   status: newest
   summary: Cross-platform ncurses Spotify client written in Rust
@@ -241,7 +230,7 @@
   visiblename: media-sound/ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: ncurses Spotify client written in Rust using librespot
   maintainers:
     - juippis@gentoo.org
@@ -275,7 +264,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
@@ -286,8 +275,19 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_24_05
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.1.1
+  origversion: null
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - liff@iki.fi
   licenses:
     - BSD-2-Clause
 - repo: nix_stable_24_11
@@ -345,7 +345,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
   maintainers:
     - liff@iki.fi
@@ -359,7 +359,7 @@
   visiblename: audio/ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: ncurses Spotify client
   maintainers:
     - ports@openbsd.org
@@ -399,7 +399,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1.1
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
@@ -429,7 +429,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-53.1
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
@@ -442,7 +442,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
@@ -476,7 +476,7 @@
   visiblename: audio/ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -518,7 +518,7 @@
   subrepo: main
   binname: ncspot
   visiblename: ncspot
-  version: 1.5.0
+  version: 1.5.1
   origversion: null
   status: newest
   licenses:
@@ -528,7 +528,7 @@
   visiblename: audio/ncspot
   version: 1.5.0
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - kvngncrlsn@gmail.com
   categories:
@@ -537,8 +537,8 @@
   subrepo: extra
   srcname: ncspot
   visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
+  version: 1.5.1
+  origversion: 1.5.1-1
   status: newest
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
   maintainers:
@@ -547,7 +547,7 @@
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.5.0
+  version: 1.5.1
   origversion: null
   status: newest
   summary: An ncurses Spotify client written in Rust
@@ -559,7 +559,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust
   maintainers:
     - higashikataengels@icloud.com
@@ -573,7 +573,7 @@
   visiblename: ncspot
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust
   maintainers:
     - higashikataengels@icloud.com
@@ -587,7 +587,7 @@
   visiblename: ncspot-bash-completion
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Bash completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -595,26 +595,13 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0_1
-  status: newest
-  summary: Cross-platform ncurses Spotify client
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - BSD-2-Clause
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot-debuginfo
   visiblename: ncspot-debuginfo
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -628,7 +615,7 @@
   visiblename: ncspot-debuginfo
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -642,7 +629,7 @@
   visiblename: ncspot-debugsource
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -656,7 +643,7 @@
   visiblename: ncspot-debugsource
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -670,7 +657,7 @@
   visiblename: ncspot-fish-completion
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Fish completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -684,7 +671,7 @@
   visiblename: ncspot-zsh-completion
   version: 1.5.0
   origversion: 1.5.0-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Zsh completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -692,12 +679,25 @@
     - BSD-2-Clause AND (MIT OR Apache-2.0) AND (ISC AND (Apache-2.0 OR ISC)) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR BSL-1.0) AND (MIT OR Apache-2.0 OR Zlib) AND (0BSD OR MIT OR Apache-2.0) AND CDLA-Permissive-2.0 AND BSD-2-Clause AND Zlib AND MIT AND (LGPL-3.0-or-later OR MPL-2.0) AND ((MIT OR Apache-2.0) AND Unicode-3.0) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND Apache-2.0 AND MPL-2.0 AND Unicode-3.0 AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (BSD-3-Clause OR Apache-2.0) AND BSL-1.0 AND ISC AND ((Apache-2.0 OR MIT) AND BSD-3-Clause) AND BSD-3-Clause AND (MIT OR Apache-2.0 OR LGPL-2.1-or-later) AND (ISC AND (Apache-2.0 OR ISC) AND OpenSSL) AND (Unlicense OR MIT)
   categories:
     - Unspecified
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0_1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - BSD-2-Clause
 - repo: vylen
   subrepo: community
   srcname: ncspot
   visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
+  version: 1.5.1
+  origversion: 1.5.1-1
   status: newest
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
   maintainers:
