@@ -41,56 +41,56 @@ x install ncspot
 
 ## 发布
 
-- **最新版本**: `v1.5.0` (2026-10-01)
-- **最近提交**: 2026-11-02
+- **最新版本**: `v1.5.1` (2026-11-08)
+- **最近提交**: 2026-11-08
 - **Release 含资产**: 10 个
 
 ## 流行度
 
-- **Star**: 6,811 · **Fork**: 281 · **开放 issue**: 766 · **贡献者**: 101
+- **Star**: 6,812 · **Fork**: 281 · **开放 issue**: 766 · **贡献者**: 101
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 695 · **开放 PR**: 17 · **已关闭 issue**: 578 · **开放 issue**: 188 · **提交数**: 1424
+- **发布数**: 58 · **已合并 PR**: 696 · **开放 PR**: 18 · **已关闭 issue**: 578 · **开放 issue**: 188 · **提交数**: 1425
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 12 | 1 | 1 | 0 | 14 |
-| last60d | 2026-09-09 | 1 | 22 | 2 | 2 | 0 | 25 |
-| 90d | 2026-08-10 | 2 | 30 | 2 | 3 | 1 | 34 |
-| last180d | 2026-05-12 | 3 | 50 | 6 | 6 | 5 | 55 |
-| 360d | 2025-11-13 | 4 | 84 | 6 | 14 | 25 | 87 |
-| last720d | 2024-11-18 | 8 | 157 | 10 | 56 | 66 | 177 |
+| 30d | 2026-10-11 | 1 | 8 | 1 | 1 | 0 | 15 |
+| last60d | 2026-09-11 | 2 | 22 | 3 | 2 | 0 | 26 |
+| 90d | 2026-08-12 | 3 | 31 | 3 | 3 | 1 | 35 |
+| last180d | 2026-05-14 | 4 | 51 | 7 | 6 | 5 | 56 |
+| 360d | 2025-11-15 | 5 | 84 | 7 | 14 | 25 | 88 |
+| last720d | 2024-11-20 | 9 | 158 | 11 | 56 | 66 | 178 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [ncspot-v1.5.0-linux-arm64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-arm64.sha256) | 99 B | `native/linux/arm64` |
-| [ncspot-v1.5.0-linux-arm64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-arm64.tar.gz) | 7.2 MiB | `native/linux/arm64` |
-| [ncspot-v1.5.0-linux-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.sha256) | 100 B | `native/linux/x64` |
-| [ncspot-v1.5.0-linux-x86_64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-linux-x86_64.tar.gz) | 7.5 MiB | `native/linux/x64` |
-| [ncspot-v1.5.0-macos-aarch64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-aarch64.sha256) | 101 B | `native/darwin/arm64` |
-| [ncspot-v1.5.0-macos-aarch64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-aarch64.tar.gz) | 4.4 MiB | `native/darwin/arm64` |
-| [ncspot-v1.5.0-macos-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-x86_64.sha256) | 100 B | `native/darwin/x64` |
-| [ncspot-v1.5.0-macos-x86_64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-macos-x86_64.tar.gz) | 4.7 MiB | `native/darwin/x64` |
-| [ncspot-v1.5.0-windows-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.sha256) | 99 B | `native/win/x64` |
-| [ncspot-v1.5.0-windows-x86_64.zip](https://github.com/hrkfdn/ncspot/releases/download/v1.5.0/ncspot-v1.5.0-windows-x86_64.zip) | 5.8 MiB | `native/win/x64` |
+| [ncspot-v1.5.1-linux-arm64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-linux-arm64.sha256) | 99 B | `native/linux/arm64` |
+| [ncspot-v1.5.1-linux-arm64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-linux-arm64.tar.gz) | 7.4 MiB | `native/linux/arm64` |
+| [ncspot-v1.5.1-linux-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-linux-x86_64.sha256) | 100 B | `native/linux/x64` |
+| [ncspot-v1.5.1-linux-x86_64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-linux-x86_64.tar.gz) | 7.7 MiB | `native/linux/x64` |
+| [ncspot-v1.5.1-macos-aarch64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-macos-aarch64.sha256) | 101 B | `native/darwin/arm64` |
+| [ncspot-v1.5.1-macos-aarch64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-macos-aarch64.tar.gz) | 4.4 MiB | `native/darwin/arm64` |
+| [ncspot-v1.5.1-macos-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-macos-x86_64.sha256) | 100 B | `native/darwin/x64` |
+| [ncspot-v1.5.1-macos-x86_64.tar.gz](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-macos-x86_64.tar.gz) | 4.7 MiB | `native/darwin/x64` |
+| [ncspot-v1.5.1-windows-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-windows-x86_64.sha256) | 99 B | `native/win/x64` |
+| [ncspot-v1.5.1-windows-x86_64.zip](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-windows-x86_64.zip) | 5.8 MiB | `native/win/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ncspot) 上共有 **55** 个发行版报告此项目。**31** 个 ✅ 已是最新上游版本，**22** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ncspot) 上共有 **55** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**47** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `1.5.0` | ✅ latest |
-| Homebrew | `1.5.0` | ✅ latest |
-| Nix unstable | `1.5.0` | ✅ latest |
-| Void | `1.5.0` | ✅ latest |
+| Arch | `1.5.0` | ⚠️ outdated |
+| Homebrew | `1.5.1` | ✅ latest |
+| Nix unstable | `1.5.0` | ⚠️ outdated |
+| Void | `1.5.0` | ⚠️ outdated |
 | Alpine edge | `1.1.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.5.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.5.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -101,4 +101,4 @@ ncspot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T07:26:35Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T09:09:40Z._
