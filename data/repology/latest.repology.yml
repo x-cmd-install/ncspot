@@ -1,14 +1,13 @@
-- repo: arch
+- repo: starkos
   subrepo: extra
   srcname: ncspot
-  binname: ncspot
   visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
+  version: 1.5.1
+  origversion: 1.5.1-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - starkos@disroot.org
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -126,8 +125,8 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: arch_testing
-  subrepo: extra-testing
+- repo: arch
+  subrepo: extra
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
@@ -168,6 +167,16 @@
     - rodrigo@freebsd.org
   categories:
     - audio
+- repo: termux
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.1
+  origversion: null
+  status: newest
+  summary: An ncurses Spotify client written in Rust
+  maintainers:
+    - termux@github
 - repo: gentoo
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
@@ -274,7 +283,7 @@
   binname: ncspot
   visiblename: ncspot
   version: 1.5.0
-  origversion: 1.5.0-1
+  origversion: 1.5.0-2
   status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
@@ -533,26 +542,6 @@
     - kvngncrlsn@gmail.com
   categories:
     - audio
-- repo: starkos
-  subrepo: extra
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.5.1
-  origversion: 1.5.1-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - starkos@disroot.org
-- repo: termux
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.1
-  origversion: null
-  status: newest
-  summary: An ncurses Spotify client written in Rust
-  maintainers:
-    - termux@github
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot
