@@ -1,13 +1,25 @@
-- repo: starkos
+- repo: manjaro_stable
   subrepo: extra
   srcname: ncspot
+  binname: ncspot
   visiblename: ncspot
-  version: 1.5.1
-  origversion: 1.5.1-1
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
-  maintainers:
-    - starkos@disroot.org
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -84,6 +96,17 @@
   summary: Cross-platform ncurses Spotify client inspired by ncmpc and the likes
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-2
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_23
@@ -167,16 +190,6 @@
     - rodrigo@freebsd.org
   categories:
     - audio
-- repo: termux
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.1
-  origversion: null
-  status: newest
-  summary: An ncurses Spotify client written in Rust
-  maintainers:
-    - termux@github
 - repo: gentoo
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
@@ -255,39 +268,6 @@
     - ZLIB
   categories:
     - media-sound
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-2
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
 - repo: nix_stable_24_05
   srcname: ncspot
   visiblename: ncspot
@@ -542,13 +522,33 @@
     - kvngncrlsn@gmail.com
   categories:
     - audio
+- repo: starkos
+  subrepo: extra
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.5.1
+  origversion: 1.5.1-1
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes
+  maintainers:
+    - starkos@disroot.org
+- repo: termux
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.1
+  origversion: null
+  status: newest
+  summary: An ncurses Spotify client written in Rust
+  maintainers:
+    - termux@github
 - repo: terra_rawhide
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Cross-platform ncurses Spotify client written in Rust
   maintainers:
     - higashikataengels@icloud.com
@@ -560,9 +560,9 @@
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Cross-platform ncurses Spotify client written in Rust
   maintainers:
     - higashikataengels@icloud.com
@@ -574,9 +574,9 @@
   srcname: ncspot
   binname: ncspot-bash-completion
   visiblename: ncspot-bash-completion
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Bash completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -588,9 +588,9 @@
   srcname: ncspot
   binname: ncspot-debuginfo
   visiblename: ncspot-debuginfo
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Debug information for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -602,9 +602,9 @@
   srcname: ncspot
   binname: ncspot-debuginfo
   visiblename: ncspot-debuginfo
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Debug information for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -616,9 +616,9 @@
   srcname: ncspot
   binname: ncspot-debugsource
   visiblename: ncspot-debugsource
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Debug sources for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -630,9 +630,9 @@
   srcname: ncspot
   binname: ncspot-debugsource
   visiblename: ncspot-debugsource
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Debug sources for package ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -644,9 +644,9 @@
   srcname: ncspot
   binname: ncspot-fish-completion
   visiblename: ncspot-fish-completion
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Fish completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
@@ -658,9 +658,9 @@
   srcname: ncspot
   binname: ncspot-zsh-completion
   visiblename: ncspot-zsh-completion
-  version: 1.5.0
-  origversion: 1.5.0-1.fcrawhide
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-1.fcrawhide
+  status: newest
   summary: Zsh completion for ncspot
   maintainers:
     - higashikataengels@icloud.com
