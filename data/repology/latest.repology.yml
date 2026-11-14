@@ -1,25 +1,3 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-1
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_17
   subrepo: community
   srcname: ncspot
@@ -96,17 +74,6 @@
   summary: Cross-platform ncurses Spotify client inspired by ncmpc and the likes
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ncspot
-  binname: ncspot
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-2
-  status: outdated
-  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_23
@@ -193,9 +160,30 @@
 - repo: gentoo
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
+  version: 1.5.1
+  origversion: null
+  status: newest
+  summary: ncurses Spotify client written in Rust using librespot
+  maintainers:
+    - juippis@gentoo.org
+  licenses:
+    - BSD-2
+    - Apache-2.0
+    - BSD
+    - Boost-1.0
+    - ISC
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - media-sound
+- repo: gentoo
+  srcname: media-sound/ncspot
+  visiblename: media-sound/ncspot
   version: 1.5.0
   origversion: null
-  status: outdated
+  status: legacy
   summary: ncurses Spotify client written in Rust using librespot
   maintainers:
     - juippis@gentoo.org
@@ -250,9 +238,9 @@
 - repo: liguros_develop
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
-  version: 1.5.0
+  version: 1.5.1
   origversion: null
-  status: outdated
+  status: newest
   summary: ncurses Spotify client written in Rust using librespot
   maintainers:
     - juippis@gentoo.org
@@ -268,6 +256,75 @@
     - ZLIB
   categories:
     - media-sound
+- repo: opensuse_multimedia_apps_tumbleweed
+  srcname: ncspot
+  binnames:
+    - ncspot
+    - ncspot-debuginfo
+    - ncspot-debugsource
+  visiblename: ncspot
+  version: 1.2.2
+  origversion: 1.2.2-39.21
+  status: legacy
+  summary: Cross-platform ncurses Spotify client written in Rust
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Multimedia/Sound/Players
+- repo: liguros_develop
+  srcname: media-sound/ncspot
+  visiblename: media-sound/ncspot
+  version: 1.5.0
+  origversion: null
+  status: legacy
+  summary: ncurses Spotify client written in Rust using librespot
+  maintainers:
+    - juippis@gentoo.org
+  licenses:
+    - BSD-2
+    - Apache-2.0
+    - BSD
+    - Boost-1.0
+    - ISC
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - media-sound
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-1
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ncspot
+  binname: ncspot
+  visiblename: ncspot
+  version: 1.5.0
+  origversion: 1.5.0-2
+  status: outdated
+  summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+  licenses:
+    - BSD-2-Clause
 - repo: nix_stable_24_05
   srcname: ncspot
   visiblename: ncspot
@@ -401,24 +458,9 @@
     - ncspot-debuginfo
     - ncspot-debugsource
   visiblename: ncspot
-  version: 1.2.2
-  origversion: 1.2.2-39.21
-  status: legacy
-  summary: Cross-platform ncurses Spotify client written in Rust
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Multimedia/Sound/Players
-- repo: opensuse_multimedia_apps_tumbleweed
-  srcname: ncspot
-  binnames:
-    - ncspot
-    - ncspot-debuginfo
-    - ncspot-debugsource
-  visiblename: ncspot
-  version: 1.5.0
-  origversion: 1.5.0-53.1
-  status: outdated
+  version: 1.5.1
+  origversion: 1.5.1-56.1
+  status: newest
   summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
