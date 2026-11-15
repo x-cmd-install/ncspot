@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,815 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
+- **Stars**: 6,817 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 1 | 8 | 1 | 1 | 0 | 15 |
-| last60d | 2026-09-15 | 2 | 22 | 3 | 2 | 0 | 26 |
-| 90d | 2026-08-16 | 3 | 31 | 3 | 3 | 1 | 35 |
-| last180d | 2026-05-18 | 4 | 51 | 7 | 6 | 5 | 56 |
-| 360d | 2025-11-19 | 5 | 84 | 7 | 14 | 24 | 88 |
-| last720d | 2024-11-24 | 9 | 158 | 11 | 56 | 66 | 178 |
+| 30d | 2026-10-16 | 1 | 8 | 1 | 1 | 0 | 13 |
+| last60d | 2026-09-16 | 2 | 21 | 3 | 2 | 0 | 25 |
+| 90d | 2026-08-17 | 3 | 30 | 3 | 3 | 1 | 30 |
+| last180d | 2026-05-19 | 4 | 51 | 7 | 6 | 5 | 51 |
+| 360d | 2025-11-20 | 5 | 84 | 7 | 14 | 23 | 88 |
+| last720d | 2024-11-25 | 9 | 157 | 11 | 55 | 66 | 178 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **56** distros on [repology.org](https://repology.org/project/ncspot). **18** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+Reported by **54** distros on [repology.org](https://repology.org/project/ncspot). **18** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T08:27:11Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T08:19:36Z._
