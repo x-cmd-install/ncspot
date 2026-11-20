@@ -47,7 +47,7 @@ x install ncspot
 
 ## 流行度
 
-- **Star**: 6,817 · **Fork**: 282 · **开放 issue**: 766 · **贡献者**: 101
+- **Star**: 6,818 · **Fork**: 282 · **开放 issue**: 766 · **贡献者**: 101
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install ncspot
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 1 | 7 | 2 | 1 | 0 | 13 |
-| last60d | 2026-09-20 | 2 | 21 | 4 | 2 | 0 | 25 |
-| 90d | 2026-08-21 | 3 | 28 | 4 | 3 | 1 | 30 |
-| last180d | 2026-05-23 | 3 | 47 | 8 | 6 | 5 | 51 |
-| 360d | 2025-11-24 | 5 | 83 | 8 | 14 | 22 | 88 |
-| last720d | 2024-11-29 | 9 | 157 | 12 | 55 | 66 | 177 |
+| 30d | 2026-10-21 | 1 | 6 | 2 | 1 | 0 | 13 |
+| last60d | 2026-09-21 | 2 | 20 | 4 | 2 | 0 | 25 |
+| 90d | 2026-08-22 | 2 | 27 | 4 | 3 | 1 | 30 |
+| last180d | 2026-05-24 | 3 | 47 | 8 | 6 | 5 | 51 |
+| 360d | 2025-11-25 | 5 | 83 | 8 | 14 | 20 | 88 |
+| last720d | 2024-11-30 | 9 | 157 | 12 | 55 | 66 | 177 |
 
 ## Release 资产
 
@@ -81,13 +81,13 @@ x install ncspot
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ncspot) 上共有 **54** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**31** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ncspot) 上共有 **54** 个发行版报告此项目。**22** 个 ✅ 已是最新上游版本，**30** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Arch | `1.5.0` | ⚠️ outdated |
 | Homebrew | `1.5.1` | ✅ latest |
-| Nix unstable | `1.5.0` | ⚠️ outdated |
+| Nix unstable | `1.5.1` | ✅ latest |
 | Void | `1.5.0` | ⚠️ outdated |
 | Alpine edge | `1.5.1` | ✅ latest |
 | openSUSE Tumbleweed | `1.5.1` | ✅ latest |
@@ -101,4 +101,4 @@ ncspot 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261119.yml` · 2026-11-19T10:29:32Z._
+_数据快照: `data/card/261120.yml` · 2026-11-20T09:25:16Z._
