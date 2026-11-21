@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 6 | 2 | 1 | 0 | 13 |
-| last60d | 2026-09-21 | 2 | 20 | 4 | 2 | 0 | 25 |
-| 90d | 2026-08-22 | 2 | 27 | 4 | 3 | 1 | 30 |
-| last180d | 2026-05-24 | 3 | 47 | 8 | 6 | 5 | 51 |
-| 360d | 2025-11-25 | 5 | 83 | 8 | 14 | 20 | 88 |
-| last720d | 2024-11-30 | 9 | 157 | 12 | 55 | 66 | 177 |
+| 30d | 2026-10-22 | 1 | 6 | 2 | 1 | 0 | 13 |
+| last60d | 2026-09-22 | 2 | 20 | 4 | 1 | 0 | 25 |
+| 90d | 2026-08-23 | 2 | 27 | 4 | 3 | 1 | 30 |
+| last180d | 2026-05-25 | 3 | 47 | 8 | 6 | 5 | 51 |
+| 360d | 2025-11-26 | 5 | 83 | 8 | 14 | 20 | 88 |
+| last720d | 2024-12-01 | 9 | 157 | 12 | 55 | 66 | 177 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:25:16Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:35:56Z._
