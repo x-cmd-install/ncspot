@@ -37,6 +37,13 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: homebrew
+  srcname: ncspot
+  visiblename: ncspot
+  version: 1.5.1
+  origversion: null
+  status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust
 - repo: alpine_3_20
   subrepo: community
   srcname: ncspot
@@ -63,21 +70,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: opensuse_multimedia_apps_tumbleweed
-  srcname: ncspot
-  binnames:
-    - ncspot
-    - ncspot-debuginfo
-    - ncspot-debugsource
-  visiblename: ncspot
-  version: 1.2.2
-  origversion: 1.2.2-39.21
-  status: legacy
-  summary: Cross-platform ncurses Spotify client written in Rust
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Multimedia/Sound/Players
 - repo: alpine_3_22
   subrepo: community
   srcname: ncspot
@@ -201,13 +193,6 @@
   origversion: null
   status: newest
   summary: Ncurses Spotify client written in Rust
-- repo: homebrew
-  srcname: ncspot
-  visiblename: ncspot
-  version: 1.5.1
-  origversion: null
-  status: newest
-  summary: Cross-platform ncurses Spotify client written in Rust
 - repo: liguros_stable
   srcname: media-sound/ncspot
   visiblename: media-sound/ncspot
@@ -255,8 +240,8 @@
   srcname: ncspot
   binname: ncspot
   visiblename: ncspot
-  version: 1.4.0
-  origversion: 1.4.0-1
+  version: 1.5.0
+  origversion: 1.5.0-2
   status: outdated
   summary: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
   licenses:
@@ -404,6 +389,21 @@
   version: 1.5.1
   origversion: 1.5.1-1.1
   status: newest
+  summary: Cross-platform ncurses Spotify client written in Rust
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Multimedia/Sound/Players
+- repo: opensuse_multimedia_apps_tumbleweed
+  srcname: ncspot
+  binnames:
+    - ncspot
+    - ncspot-debuginfo
+    - ncspot-debugsource
+  visiblename: ncspot
+  version: 1.2.2
+  origversion: 1.2.2-39.21
+  status: legacy
   summary: Cross-platform ncurses Spotify client written in Rust
   licenses:
     - BSD-2-Clause
