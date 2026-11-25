@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.1` (2026-11-08)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-24
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 6,821 · **Forks**: 282 · **Open issues**: 766 · **Contributors**: 101
+- **Stars**: 6,822 · **Forks**: 282 · **Open issues**: 766 · **Contributors**: 101
 
 ## Totals (cumulative)
 
-- **Releases**: 58 · **Merged PRs**: 698 · **Open PRs**: 18 · **Closed issues**: 578 · **Open issues**: 188 · **Commits**: 1427
+- **Releases**: 58 · **Merged PRs**: 699 · **Open PRs**: 17 · **Closed issues**: 578 · **Open issues**: 188 · **Commits**: 1428
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 8 | 1 | 1 | 0 | 8 |
-| last60d | 2026-09-25 | 2 | 21 | 3 | 1 | 0 | 21 |
-| 90d | 2026-08-26 | 2 | 28 | 3 | 3 | 1 | 31 |
-| last180d | 2026-05-28 | 3 | 49 | 7 | 6 | 5 | 53 |
-| 360d | 2025-11-29 | 5 | 85 | 7 | 14 | 20 | 89 |
-| last720d | 2024-12-04 | 9 | 156 | 11 | 55 | 66 | 178 |
+| 30d | 2026-10-26 | 1 | 8 | 0 | 1 | 0 | 9 |
+| last60d | 2026-09-26 | 2 | 22 | 2 | 1 | 0 | 22 |
+| 90d | 2026-08-27 | 2 | 29 | 2 | 3 | 1 | 32 |
+| last180d | 2026-05-29 | 3 | 50 | 6 | 6 | 5 | 54 |
+| 360d | 2025-11-30 | 5 | 86 | 6 | 14 | 19 | 90 |
+| last720d | 2024-12-05 | 9 | 157 | 10 | 55 | 66 | 179 |
 
 ## Release assets
 
@@ -79,19 +79,6 @@ Lowest-scoring checks:
 | [ncspot-v1.5.1-windows-x86_64.sha256](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-windows-x86_64.sha256) | 99 B | `native/win/x64` |
 | [ncspot-v1.5.1-windows-x86_64.zip](https://github.com/hrkfdn/ncspot/releases/download/v1.5.1/ncspot-v1.5.1-windows-x86_64.zip) | 5.8 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **54** distros on [repology.org](https://repology.org/project/ncspot). **22** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `1.5.0` | ⚠️ outdated |
-| Homebrew | `1.5.1` | ✅ latest |
-| Nix unstable | `1.5.1` | ✅ latest |
-| Void | `1.5.0` | ⚠️ outdated |
-| Alpine edge | `1.5.1` | ✅ latest |
-| openSUSE Tumbleweed | `1.5.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ncspot` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:20:33Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:02:27Z._
