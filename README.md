@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,824 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
+- **Stars**: 6,821 · **Forks**: 281 · **Open issues**: 766 · **Contributors**: 101
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 8 | 0 | 0 | 0 | 9 |
-| last60d | 2026-09-28 | 2 | 21 | 2 | 1 | 0 | 22 |
-| 90d | 2026-08-29 | 2 | 29 | 2 | 3 | 1 | 32 |
-| last180d | 2026-05-31 | 3 | 50 | 6 | 6 | 5 | 54 |
-| 360d | 2025-12-02 | 5 | 85 | 6 | 14 | 19 | 90 |
-| last720d | 2024-12-07 | 9 | 156 | 9 | 54 | 66 | 177 |
+| 30d | 2026-10-29 | 1 | 8 | 0 | 0 | 0 | 9 |
+| last60d | 2026-09-29 | 2 | 21 | 2 | 1 | 0 | 22 |
+| 90d | 2026-08-30 | 2 | 29 | 2 | 3 | 1 | 32 |
+| last180d | 2026-06-01 | 3 | 50 | 6 | 6 | 5 | 54 |
+| 360d | 2025-12-03 | 5 | 85 | 6 | 14 | 19 | 90 |
+| last720d | 2024-12-08 | 9 | 156 | 9 | 54 | 66 | 176 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for ncspot lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:29:23Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:49:41Z._
